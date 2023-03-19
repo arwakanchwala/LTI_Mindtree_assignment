@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form-control {
+  width: 18% !important;
+  margin: 5px auto;
+}
+
+.login-form,
+.register-form {
+  margin: 8% 0 3% auto;
+}
+
+button.form-control {
+  background: cadetblue;
+  color: white;
+  font-family: cursive;
+}
+
+.form-control.radio {
+  margin: 3px -14px;
+  box-shadow: none !important;
+  height: 20px;
+}
+
+.radiobox {
+  display: flex;
+}
+
+.radiobox input {
+  height: 15px;
+  box-shadow: none !important;
+  margin: 4px 0%;
+}
+
+.create-event .form-control {
+  width: 100% !important;
+}
+
+.form-control.edit {
+  width: 4% !important;
+  background: white;
+  color: black;
+  margin: 5px;
+}
+
+.base-price {
+  position: sticky;
+  background: cadetblue;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  bottom: 0;
+}
+
+.password-validations {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  font-size: 12px;
+  text-align: left;
+  margin-right: 11%;
+}
+
+.event-list {
+  height: 100vh
+}
+
+.no-content {
+  align-items: center;
+}
